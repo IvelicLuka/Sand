@@ -11,7 +11,7 @@ Colourful falling sand "game" using raylib
 Left click place sand,
 Right click remove sand.
 
-#Configuration
+# Configuration
 
 Edit the source file.
 - SQ_SIDE: size of single grain in px

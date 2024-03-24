@@ -9,12 +9,13 @@
 #define ROWS 200
 #define SPAWN_SIZE 5
 #define COLOR_CHANGE_SPEED 0.01
+#define TAR_FPS 120
 
 #define WIDTH COLS*SQ_SIDE
 #define HEIGHT ROWS*SQ_SIDE
 
 int main(void) {
-	SetTargetFPS(120);
+	SetTargetFPS(TAR_FPS);
 	srand(time(NULL));
 	InitWindow(WIDTH, HEIGHT, "sand");
 	float polje[2][ROWS][COLS] = { 0 };
